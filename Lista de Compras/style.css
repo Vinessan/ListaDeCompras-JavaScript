@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.content {
+    max-width: 400px;
+    max-height: 800px;
+    margin: auto;
+    background: #004244;
+    height: 450px;
+    padding: 2%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+#img_nav{
+    width: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 12em;
+   margin-top: -1em;
+}
+
+input[type=text] {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+    
+   
+}
+
+input[type=button] {
+    border: none;
+    width: 17%;
+    float: right;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+    
+}
+
+button:hover,
+input[type=button]:hover {
+    background: rgb(0, 95, 95);
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+button,
+input[type=button] {
+    cursor: pointer;
+}
+
+button {
+    float: right;
+    width: 25px;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    height: 250px;
+    background: rgb(255, 255, 255);
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+li {
+    height: 30px;
+    margin: 10px 0px 10px 0px;
+    border-bottom: 1px solid;
+    text-align: center;
+   
+}
+li:hover{
+    border: #fff;
+    background-color: rgba(0, 105, 112, 0.493);
+    border-radius: 5px;
+}
